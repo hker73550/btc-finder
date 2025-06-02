@@ -46,7 +46,7 @@ def generate_key(user_input):
 user_input = input("Enter your input: ")
 
 try:
-    with open(r"C:\Users\KARAN SONAR\Downloads\Demo Software\Pyromid-mainx\Rich.txt", 'r') as file:
+    with open(r"Rich.txt", 'r') as file: # replaced with you rich.txt path
         addresses = file.readlines()
     
     for address in addresses:
